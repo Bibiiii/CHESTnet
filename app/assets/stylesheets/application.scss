@@ -13,6 +13,15 @@
  *= require_tree .
  *= require_self
  */
-
+// External libraries
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Graphical variables
+@import "config/variables";
+@import "config/bootstrap_variables";
+
+
+@import "pages/index"
